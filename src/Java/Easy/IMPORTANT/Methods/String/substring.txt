@@ -1,0 +1,4 @@
+       // .substring() = A method used to extract a portion of a string
+        //                         .substring(start, end)
+
+        go to email slicer program in programs to see what happens
