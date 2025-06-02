@@ -1,4 +1,4 @@
-package LAB.MID_TERM.Q2;
+package LABS.MID_TERM.Q2;
 import java.util.Scanner;
 
 public class Late_Fee_Calculator

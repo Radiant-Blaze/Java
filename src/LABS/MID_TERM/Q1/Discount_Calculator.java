@@ -1,4 +1,4 @@
-package LAB.MID_TERM.Q1;
+package LABS.MID_TERM.Q1;
 
 import java.util.Scanner;
 

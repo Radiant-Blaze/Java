@@ -1,4 +1,4 @@
-package LAB.MID_TERM.Q3;
+package LABS.MID_TERM.Q3;
 
 public class BankAccount
 {
