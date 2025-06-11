@@ -7,6 +7,15 @@ public class Add_Products extends Display_Parent
     public void Display()
     {
         Start_Lines();
+        System.out.println("Previous Stock: ");
+        Line();
+
+        System.out.println("What will you do today?");
+        Line();
+
+        System.out.println("1. Add a new product");
+        System.out.println("2. Add an existing product");
+        Selection();
     }
 
     @Override
@@ -18,15 +27,6 @@ public class Add_Products extends Display_Parent
     public void Start_Lines()
     {
         System.out.println("---------------Welcome to Add Product Section---------------\n");
-        System.out.println("Previous Stock: ");
-        Line();
-
-        System.out.println("What will you do today?");
-        Line();
-
-        System.out.println("1. Add a new product");
-        System.out.println("2. Add an existing product");
-        Selection();
     }
 
     public static void main(String[] args)
