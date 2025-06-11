@@ -26,9 +26,7 @@ public class Add_Products extends Display_Parent
 
         System.out.println("1. Add a new product");
         System.out.println("2. Add an existing product");
-        End_Lines();
-
-        System.out.println("");
+        Selection();
     }
 
     public static void main(String[] args)

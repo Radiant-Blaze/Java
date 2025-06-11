@@ -17,4 +17,15 @@ public abstract class Display_Parent
     {
         System.out.println();
     }
+
+    public void Selection()
+    {
+        Line();
+        System.out.println("Remember to type  \"NUMBERS\" ONLY ");
+        End_Lines();
+        System.out.print("Please Select the following");
+
+        check_Condition();
+        running = false;
+    }
 }

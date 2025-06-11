@@ -25,13 +25,7 @@ public class Display_Main extends Display_Parent
             System.out.println("2. Check Stock");
             System.out.println("3. Change stock");
             System.out.println("4. Report Monthly/Weekly/Daily");
-            Line();
-            System.out.println("Remember to type  \"NUMBERS\" ONLY ");
-            End_Lines();
-            System.out.print("Please Select the following");
-
-            check_Condition();
-            running = false;
+            Selection();
 
         }
     }
