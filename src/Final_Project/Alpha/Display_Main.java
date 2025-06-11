@@ -1,6 +1,5 @@
 package Final_Project.Alpha;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Display_Main extends Display_Parent
