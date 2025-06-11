@@ -1,10 +1,10 @@
 package Final_Project.Alpha;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Display_Main extends Display_Parent
 {
-    Scanner scanner = new Scanner(System.in);
+    //Scanner scanner = new Scanner(System.in);
 
     @Override
     public void Display()
