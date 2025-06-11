@@ -23,7 +23,7 @@ public abstract class Display_Parent
         Line();
         System.out.println("Remember to type  \"NUMBERS\" ONLY ");
         End_Lines();
-        System.out.print("Please Select the following");
+        System.out.print("Please Select the following: ");
 
         check_Condition();
         running = false;
