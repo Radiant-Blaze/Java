@@ -7,4 +7,14 @@ public abstract class Display_Parent
 
     public abstract void Display();
     public abstract void check_Condition();
+
+    public abstract void Start_Lines();
+    public void End_Lines()
+    {
+        System.out.println("------------------------------------------------------------\n");
+    }
+    public void Line()
+    {
+        System.out.println();
+    }
 }
