@@ -1,7 +1,11 @@
 package Final_Project.Alpha;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Add_Products extends Display_Parent
 {
+    Scanner scanner = new Scanner(System.in);
 
     @Override
     public void Display()
@@ -19,8 +23,9 @@ public class Add_Products extends Display_Parent
     }
 
     @Override
-    public void check_Condition() {
-
+    public void check_Condition()
+    {
+        Enter_Choice();
     }
 
     @Override

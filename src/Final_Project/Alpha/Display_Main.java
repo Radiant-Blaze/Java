@@ -33,36 +33,25 @@ public class Display_Main extends Display_Parent
     @Override
     public void check_Condition()
     {
-        boolean check = true;
-        while (check)
+        boolean checking = true;
+
+        while (checking)
         {
-            try
-            {
-                choice = scanner.nextInt();
-                System.out.println();
-            }
-            catch (InputMismatchException e)
-            {
-                System.out.println("Wrong input! Input must be an Integer!");
-                End_Lines();
-                scanner.nextLine(); // Clear invalid input
-                System.out.print("Enter your Choice: ");
-                continue;
-            }
+            Enter_Choice();
 
             switch (choice)
             {
                 case 1: System.out.println("We will go to process sale!"); End_Lines();
-                        check = false; break;
+                        checking = false; break;
 
-                case 2: System.out.println("We will go to check stocks"); End_Lines();
-                        check = false; break;
+                case 2: System.out.println("We will go to checking stocks"); End_Lines();
+                        checking = false; break;
 
                 case 3: System.out.println("We will go to change stock"); End_Lines();
-                        check = false; break;
+                        checking = false; break;
 
-                case 4: System.out.println("We will go to check report!"); End_Lines();
-                        check = false; break;
+                case 4: System.out.println("We will go to checking report!"); End_Lines();
+                        checking = false; break;
 
                 default: System.out.println("Wrong input detected, please select between 1-4"); End_Lines();
                         System.out.print("Enter your Choice: "); break;
