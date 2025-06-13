@@ -21,7 +21,7 @@ public class Display_Main extends Display_Parent
             Line();
 
             System.out.println("1. Process Sale");
-            System.out.println("2. Check Stock");
+            System.out.println("2. Display Stock");
             System.out.println("3. Change stock");
             System.out.println("4. Report Monthly/Weekly/Daily");
             Selection();
@@ -59,10 +59,7 @@ public class Display_Main extends Display_Parent
     }
 
     @Override
-    public void Start_Lines()
-    {
-        System.out.println("---------------Welcome to ABC Supermarket App---------------\n");
-    }
+    public void Start_Lines() {System.out.println("---------------Welcome to ABC Supermarket App---------------\n");}
 
 
     public static void main(String[] args)

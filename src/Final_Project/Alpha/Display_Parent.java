@@ -17,8 +17,7 @@ public abstract class Display_Parent
     public void End_Lines() {System.out.println("------------------------------------------------------------\n");}
     public void Line() {System.out.println();}
 
-    public void Selection()
-    {
+    public void Selection() {
         Line();
         System.out.println("Remember to type  \"NUMBERS\" ONLY ");
         End_Lines();
