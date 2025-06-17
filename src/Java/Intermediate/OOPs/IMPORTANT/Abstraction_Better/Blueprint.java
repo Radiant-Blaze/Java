@@ -2,6 +2,7 @@ package Java.Intermediate.OOPs.IMPORTANT.Abstraction_Better;
 
 public abstract class Blueprint
 {
+
     String Main_Character_name;
     int HP;
     abstract void Character_Gender(); //ABSTRACT method -> must be defined in the child classes
@@ -17,5 +18,6 @@ public abstract class Blueprint
     {
         System.out.println(Main_Character_name + " is moving");
     }
+
 
 }

@@ -1,0 +1,17 @@
+interface extends inferface
+but
+inteface doesnot extends class (not possible)
+interface does not implements interface
+
+class extends class
+class implements interface
+but
+class does not extends interface
+
+also child class inherits the overridden methods of interface from parent class
+
+e.g:
+
+fish implements prey , predator
+baby_fish extends fish
+
