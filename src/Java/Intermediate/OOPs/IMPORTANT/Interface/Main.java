@@ -9,10 +9,13 @@ public class Main {
 
         Hawk hawk = new Hawk();
         Fish fish = new Fish();
+        Baby_Rabbit babyRabbit = new Baby_Rabbit();
 
-        hawk.hunt();
-        fish.flee();
-        fish.hunt();
+        babyRabbit.flee();
+
+//        hawk.hunt();
+//        fish.flee();
+//        fish.hunt();
 
     }
 }

@@ -1,0 +1,40 @@
+interface extends inferface
+but
+inteface doesnot extends class (not possible)
+interface does not implements interface
+
+class extends class
+class implements interface
+but
+class does not extends interface
+
+also child class inherits the overridden methods of interface from parent class
+
+e.g:
+
+fish implements prey , predator
+baby_fish extends fish
+
+also
+
+interface
+int id = 33;
+public static final constant int id = 33;
+
+both are same
+
+void hunt();
+public static void hunt();
+
+both are same
+
+class
+
+int id
+public int id
+private int id
+protected int id
+
+final int id = 5;
+
+all can be in classes

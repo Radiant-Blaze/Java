@@ -7,3 +7,7 @@ public class Rabbit implements Prey{
         System.out.println("*The rabbit is running away*");
     }
 }
+
+class Baby_Rabbit extends Rabbit
+{
+}
