@@ -1,0 +1,2 @@
+1,choco,60.0,10
+2,tuuti frutti,30.0,20
