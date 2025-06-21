@@ -1,4 +1,4 @@
-package Java.Intermediate.OOPs.IMPORTANT.Immutable_Classes;
+package Java.Intermediate.OOPs.IMPORTANT.Immutable_Classes.Main;
 
 final class abc
 {
