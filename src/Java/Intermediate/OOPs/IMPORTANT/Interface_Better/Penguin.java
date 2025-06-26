@@ -1,6 +1,6 @@
 package Java.Intermediate.OOPs.IMPORTANT.Interface_Better;
 
-public class Penguin extends Eat implements Run
+public class Penguin extends Eat implements Run, Bird
 {
     @Override
     public void run()

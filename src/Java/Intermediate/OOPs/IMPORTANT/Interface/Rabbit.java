@@ -10,4 +10,11 @@ public class Rabbit implements Prey{
 
 class Baby_Rabbit extends Rabbit
 {
+    @Override
+    public void flee() {
+        System.out.println("*Baby Rabbit is fleeing*");
+    }
+    public void Snuggle() {
+        System.out.println("Baby snuggling with mama");
+    }
 }

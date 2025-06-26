@@ -1,6 +1,6 @@
 package Java.Intermediate.OOPs.IMPORTANT.Interface_Better;
 
-public class Raven extends Eat implements Fly,Run
+public class Raven extends Eat implements Fly,Run, Bird
 {
     @Override
     public void Fly()
