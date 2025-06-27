@@ -1,4 +1,4 @@
-package Practice_Final.Q3;
+package Final.Q3;
 
 public class Bank
 {

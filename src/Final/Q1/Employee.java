@@ -1,4 +1,4 @@
-package Practice_Final.Q1;
+package Final.Q1;
 
 public class Employee
 {
