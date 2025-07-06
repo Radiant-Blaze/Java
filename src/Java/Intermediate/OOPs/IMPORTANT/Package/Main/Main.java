@@ -1,5 +1,5 @@
-package Java.Intermediate.OOPs.Package.Main;
-import Java.Intermediate.OOPs.Package.Display.Display;
+package Java.Intermediate.OOPs.IMPORTANT.Package.Main;
+import Java.Intermediate.OOPs.IMPORTANT.Package.Display.Display;
 
 public class Main
 {
