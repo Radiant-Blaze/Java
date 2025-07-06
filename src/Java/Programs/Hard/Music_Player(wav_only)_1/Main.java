@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         // How to PLAY AUDIO with Java (.wav, .au, .aiff)
-
-        String filePath = "abc.wav";
+        //absolute filepath required
+        String filePath = "C:\\Users\\talha\\Desktop\\JAVA\\src\\Java\\Programs\\Hard\\Music_Player(wav_only)_1\\zzz.wav";
         File file = new File(filePath);
 
         try(Scanner scanner = new Scanner(System.in);

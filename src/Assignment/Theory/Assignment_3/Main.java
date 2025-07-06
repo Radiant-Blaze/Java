@@ -10,12 +10,15 @@ public class Main {
         DeliveryAgent agent1 = new DeliveryAgent(1, "Hamid Mir", "hamid@gmail.com", "123");
         DeliveryAgent agent2 = new DeliveryAgent(2, "Aoi Hiro", "aoi@gmail.com", "456");
 
-        Customer customer1 = new Customer("Tahir Shamsi", "tahir@gmail.com", "abc", agent1, "Karachi DHA Phase 1");
+        Customer customer1 = new Customer("Tahir Shamsi", "tahir_sham24@gmail.com", "abc", agent1, "Karachi DHA Phase 1");
+        Customer customer2 = new Customer("Kurumi hatsumi", "kurukuru99@gmail.com", "abc", agent2, "Tokyo Shibuya");
+
 
         System.out.println("Available Agents: " + DeliveryAgent.getAgentCount());
         DeliveryAgent.showVehicleCount();
 
         customer1.placeOrder(); // Start order process
+        customer2.placeOrder();
     }
 }
 
